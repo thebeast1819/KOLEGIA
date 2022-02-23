@@ -1,0 +1,69 @@
+
+
+.outerContainer2 {
+    display: flex;
+    gap: 10px;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1A1A1D;
+  }
+  .details{
+    display: flex;
+  }
+  .container22 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 8px;
+    height: 60%;
+    width: 50%;
+  
+  }
+  .heading{
+   margin-top: 20px;
+  }
+  .h12{
+    background-color: cyan;
+    height: 20vh;
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .outerContainer2 {
+      height: 100%;
+    }
+  
+    .container22 {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  @media (min-width: 480px) and (max-width: 1200px) {
+    .container22 {
+      width: 60%;
+    }
+  }
+  .input2{
+    background-color: rgb(126, 126, 223);
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+  }
+  
+  .message-input{
+    width: 20rem;
+    height: 3rem;
+    border: 3px solid pink;
+
+  }
+  .send-btn{
+    height: 3rem;
+    width: 5rem;
+    background-color: rgb(226, 124, 124);
+
+  }
+
+  

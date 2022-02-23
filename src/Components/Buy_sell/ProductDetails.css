@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Shizuru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+
+.container09 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.containerWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5rem 8rem;
+}
+
+.imageListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width:10rem;
+  width:100%;
+  padding: 0.5rem 0;
+}
+
+.sideImage {
+  width: 90%;
+  margin:1rem 0;
+}
+
+.imageContainer {
+  display:flex;
+  align-items: center;
+  max-width: 30rem;
+  width:100%;
+  min-width: 10rem;
+  margin:0rem 1rem ;
+  /* width: fit-content;
+  height: fit-content; */
+}
+.previewImage {
+  height: 70vh;
+  width:100%;
+  min-width: 10rem;
+  border-radius: 20px;
+  object-fit: fill;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  max-width: 30rem;
+  min-width: 10rem;
+  width: 25rem;
+  border: 2px solid blaCK;
+  border-radius: 5px;
+}
+.detailsContainer.h1{
+  font-weight: bolder;
+}
+.connectBtn {
+  position: relative;
+  left: 10%;
+  padding: 2%;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+  padding: 2px;
+  font-family: "Inter", sans-serif;
+
+}
+.description{
+  height: 90%;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
+  font-family: 'Manrope', sans-serif;
+  background: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6));
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:1rem 0.5rem;
+  margin-top: 1rem;
+
+}
+
+.owner{
+ 
+  display:flex;
+  justify-content: flex-start;
+}
+
+.ownerImg img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 2rem;
+}
+
+
+@media screen and (max-width:650px){
+
+  .containerWrapper {
+    padding: 3rem;
+  }
+  .sideImage {
+    width: 50%;
+  }
+  .previewImage {
+    height: 45vh;
+    margin-bottom: 2rem;
+  }
+  .detailsContainer {
+    width: 18rem;
+  }
+  
+}

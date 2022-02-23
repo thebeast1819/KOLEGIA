@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2eb208fc.css",
+    "main.js": "/static/js/main.a9a4c6db.js",
+    "static/media/buyonline.jpg": "/static/media/buyonline.f4f6b0927b84907c3447.jpg",
+    "static/media/namaste.jpg": "/static/media/namaste.196488170abe8cc86e5d.jpg",
+    "static/media/home3.png": "/static/media/home3.d9174b56103ca4fd6c55.png",
+    "static/media/home4.png": "/static/media/home4.2e2039d8873dabe62f74.png",
+    "static/media/motive.png": "/static/media/motive.ce4a02327266133b25ad.png",
+    "static/media/homeimage.png": "/static/media/homeimage.86b0ed6fe448a8b32052.png",
+    "static/media/rquire1.jpg": "/static/media/rquire1.73cd67d590a1899f5a24.jpg",
+    "static/media/jim.jpg": "/static/media/jim.c29aac87ddc427eb5f25.jpg",
+    "static/media/Buy.svg": "/static/media/Buy.77bf259dddd520d2a909399de2c1d0e8.svg",
+    "static/media/main_image.png": "/static/media/main_image.681104f7b71aab2cc525.png",
+    "static/media/lostfound1.jpg": "/static/media/lostfound1.768c49d761c288cc703f.jpg",
+    "static/media/Lostfound.svg": "/static/media/Lostfound.1d4b720bf8f7e18ba1dc406fcd7f3578.svg",
+    "static/media/Iceberg-Regular.ttf": "/static/media/Iceberg-Regular.f6c60b769e7d664cf892.ttf",
+    "static/media/buy_sell.png": "/static/media/buy_sell.4f7fcdc14c8d119944a1.png",
+    "static/media/Tickets.svg": "/static/media/Tickets.c706b6352728fed4c8b0806d93b6e1b0.svg",
+    "index.html": "/index.html",
+    "main.2eb208fc.css.map": "/static/css/main.2eb208fc.css.map",
+    "main.a9a4c6db.js.map": "/static/js/main.a9a4c6db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2eb208fc.css",
+    "static/js/main.a9a4c6db.js"
+  ]
+}

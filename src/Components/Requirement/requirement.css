@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+
+.page_heading h3
+{
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 40px;
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+.page_heading p {
+    position: absolute;
+    top: 85px;
+    right: 40px;
+    margin: 5px;
+    font-family: var(--font-family);
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    background-color: var(--color-primary);
+}
+
+.page_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 12px;
+}
+
+@media screen and (max-width: 1050px) {
+    .page_content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .page_heading h3 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .page_content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .page_heading h3 {
+        text-align: start;
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+    .page_heading p {
+        top: 115px;
+        right: 20px;
+        font-size: 28px;
+        padding: 0.5rem 0.8rem;
+    }
+}

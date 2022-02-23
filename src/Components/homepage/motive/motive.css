@@ -1,0 +1,47 @@
+.motive3 {
+    display: flex;
+    width:80%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 7rem auto;
+}
+
+.motive-content3 {
+    flex:1;
+    max-width: 50rem;
+    width:100%;
+    min-width: 20rem;
+    margin-bottom: 2rem;
+}
+
+.motive-content3 h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.motive-content3 p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+
+.motive-image3 {
+    flex:1;
+    max-width: 20rem;
+    min-width: 20rem;
+    text-align: center;
+    align-items: center;
+    margin: auto auto;
+}
+
+.motive-image3 img {
+    object-fit: fill;
+    width: 90%;
+}
+

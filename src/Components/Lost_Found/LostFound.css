@@ -1,0 +1,446 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Shizuru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.Bcards-cont {
+  display: flex;
+  justify-content: center;
+  font-family: "Noto Sans", sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  /* margin: 3rem; */
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 13vh;
+  /* margin-right:0 ;
+    margin-left:5rem;
+    */
+}
+
+#Bcard {
+  width: 20rem;
+  height: 21rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 16px;
+  box-shadow: 10px 8px 10px #d9d7f1, -10px -5px 10px #fdfdfd;
+  position: relative;
+  /* margin: 5rem; */
+  /* box-shadow: 5px 5px 10px #c3c3c3, -5px -5px 10px #fdfdfd; */
+  /* background-color: #e7e7f7; */
+  background-color: #fbfbfd;
+}
+
+.card-details {
+  margin-top: 18px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  box-sizing: border-box;
+  width: 18rem;
+  height: 12rem;
+}
+
+.img-cont {
+  border: 1px solid rgb(240, 188, 94);
+  box-sizing: border-box;
+  width: 18rem;
+  height: 5rem;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  font-family: "Dosis", sans-serif;
+}
+
+.img-cont img {
+  width: 5rem;
+  height: 4rem;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.Display {
+  display: none;
+}
+
+.hover-img {
+  position: absolute;
+  display: flex;
+  top: 17px;
+
+  width: 18rem;
+  height: 12rem;
+  overflow: hidden;
+}
+
+.hover-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+
+label {
+  /* color: black; */
+  color: #21325e;
+  margin-right: 15px;
+  font-family: "Inter", sans-serif;
+}
+
+.header-02 {
+  color: Red;
+}
+
+.pink {
+  /* color: #5B35D5; */
+  color: black;
+  font-family: "Hind Siliguri", sans-serif;
+
+  /* color: #5b35d5; */
+}
+
+.view-more-01 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.view-more-01 a {
+  margin-right: 10px;
+}
+
+.addNewBtn {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  bottom: 5%;
+  right: 3%;
+  text-align: center;
+  background-color: #d3dedc;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.addNewBtn:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* display lost found item details css start */
+.LostItemMaincontainer {
+  height: 100vh;
+  margin: 0;
+  margin-top: 13vh;
+  padding: 0;
+}
+
+.LostItemDetailsContainerWrapper {
+  height: 100%;
+  width: 100%;
+  padding: 0 4%;
+  margin-top: 3%;
+}
+
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.5;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.LostItemDetailsContainer {
+  margin-top: 2%;
+  height: 75%;
+  width: 100%;
+  display: flex;
+  
+}
+
+.firstHalf,
+.secondHalf {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 95%;
+  border: 1px solid #f3f3f3;
+  border-top: 11px solid #346e98;
+}
+
+.firstHalf {
+  margin-right: 5%;
+}
+
+.LostDetailsListItem {
+  box-sizing: border-box;
+  padding: 23px 15px 6px 40px;
+  font-size: 1.35rem;
+  line-height: 1.5;
+  color: black;
+  border-bottom: 1px solid #f3f3f3;
+  /* font-family: "HelveticaLight"; */
+  align-items: center;
+  font-family: "Dosis", sans-serif;
+  font-weight:700;
+}
+
+.raiseHandBtn {
+  padding: 1rem;
+  border: 0.1rem #a4a4a4 solid;
+  border-radius: 0.5rem;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #f8f8f8;
+  height: 0%;
+}
+
+@media (max-width: 450px) {
+  #Bcard {
+    width: 17rem;
+    height: 18rem;
+  }
+  .img-cont {
+    width: 15rem;
+    height: 4rem;
+  }
+  .img-cont img {
+    width: 4rem;
+    height: 3rem;
+  }
+  .card-details {
+    width: 15rem;
+    height: 9rem;
+  }
+  .hover-img {
+    width: 15rem;
+    height: 9rem;
+  }
+}
+.inputDiv {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  justify-content: space-between;
+  width: 100%;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.headingText {
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 767px) {
+  .firstHalf,
+  .secondHalf {
+    flex: 0 0 100%;
+    margin-top: 5%;
+  }
+
+  .headingText {
+    flex: 0 0 100%;
+    margin-bottom: 10px;
+  }
+
+  .headingContainer {
+    flex-wrap: wrap;
+  }
+
+  .secondHalf {
+    margin-bottom: 5% !important;
+    height: auto;
+  }
+
+  .LostItemDetailsContainer {
+    flex-wrap: wrap;
+  }
+}
+
+/* display lost found item details css end*/
+
+/* add new lost found item css start */
+
+.addItemForm {
+  /* max-width: 60rem; */
+  height: 100%;
+  /* margin: 0 auto; */
+  display: flex;
+  padding: 0 4%;
+}
+
+.left,
+.right {
+  flex: 1;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem;
+}
+
+.inputLabel {
+  margin: 1rem 0;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.formInput,
+.submitBtn {
+  padding: 1rem;
+  border: 0.1rem #a4a4a4 solid;
+  border-radius: 0.5rem;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+}
+
+.submitBtn {
+  cursor: pointer;
+  background-color: #f8f8f8;
+}
+.submitBtn.primary {
+  background-color: #f0c040;
+}
+
+@media only screen and (max-width: 767px) {
+  .addItemForm {
+    display: block;
+  }
+
+  /* .left,
+    .right {
+      flex: 0 0 100%;
+      margin-top: 5%;
+    }
+  
+    .right {
+      margin-bottom: 5% !important;
+      height: auto;
+    }
+    .addItemForm {
+      flex-wrap: wrap;
+    } */
+}
+
+/* add new lost found item css end*/
+
+/* responses css*/
+.resposneMainContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  font-size: 19px;
+  font-family: "Montserrat", sans-serif;
+}
+
+::placeholder{
+  font-family:"Inter",sans-serif;
+}
+
+.responseMainWrapper {
+  width: 70%;
+  height: fit-content;
+  margin: 5% auto;
+  border-top: 0.8px solid gray;
+  border-right: 0.8px solid gray;
+  border-left: 0.8px solid gray;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  margin-top: 11vh;
+}
+
+.responseContainer {
+  margin: 0 auto;
+  display: flex;
+  border-bottom: 0.8px solid gray;
+  padding: 1%;
+}
+
+.responseContainer:hover {
+  background-color: rgb(248, 248, 248);
+}
+
+.responseprofileImage {
+  height: 50px;
+  width: 50px;
+}
+
+.responseProfileImageContainer {
+  flex: 1;
+  max-width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.responseDataContainer {
+  flex: 2;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.responseButtonContainer {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  padding: 1%;
+}
+
+.responseData {
+  display: flex;
+}
+
+.dataLabel {
+  margin-right: 0.5rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 675px) {
+  .responseMainWrapper {
+    width: 85%;
+  }
+
+  .responseContainer {
+    flex-wrap: wrap;
+    padding: 2%;
+  }
+
+  .responseContainer:hover {
+    background-color: rgb(248, 248, 248);
+  }
+
+  .responseDataContainer {
+    flex: 0 0 85%;
+    justify-content: space-between;
+    padding: 2%;
+  }
+
+  .responseProfileImageContainer {
+    flex: 0 0 12%;
+  }
+
+  .responseButtonContainer {
+    display: flex;
+    justify-content: normal;
+    flex: 1;
+  }
+}

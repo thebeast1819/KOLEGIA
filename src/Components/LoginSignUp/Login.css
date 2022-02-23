@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Inter:wght@500&family=Neonderthaw&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.body {
+  
+  display: flex;
+  
+  font-family: 'Open Sans', sans-serif;
+
+  height: 100vh;
+
+}
+
+
+.h1 {
+  font-weight: bold;
+  margin: 15px;
+  font-size: 3.5rem;
+}
+.tq {
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+
+
+
+.p {
+  font-size: 30px;
+  font-weight:100;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+}
+
+
+
+.button {
+  border-radius: 5px;
+
+  border: none;
+  background-color: #F0BC5E;
+
+  margin: 40px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px 45px;
+  letter-spacing: 0.5px;
+  font-family: 'Inter', sans-serif;
+
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+.mobile_view_signUp{
+  border-radius: 10px;
+display: none;
+  border: 3px solid white;
+  background-color: #F0BC5E;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+
+  margin-top: 80px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 0.5px;
+
+
+
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+
+
+
+.form2 {
+  background-color: #CAF0F8;
+  background-size: cover;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 50px;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  padding-top: 6rem;
+  font-family: 'Inconsolata', monospace;
+  font-weight:700;
+}
+
+.input {
+  background-color: #eee;
+  border: none;
+
+  padding: 12px 15px;
+  margin: 10px 0px;
+  width: 18rem;
+  height: 3rem;
+
+  font-family: "Font Awesome 5 Free";
+
+  /* font-family: 'IBM Plex Sans', sans-serif; */
+  font-size: 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.container {
+  background-color: #CAF0F8;
+  scroll-behavior: none;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  
+  
+}
+
+
+.overlay2 {
+ 
+
+  background: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url('../../assests/namaste.jpg');
+
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center ;
+  background-size: 100% 100%;
+ 
+  color: black;
+  font-family: 'Inconsolata', monospace;
+  font-weight:700;
+  
+  height: 100%;
+  width: 100%;
+ 
+}
+
+
+
+.overlay-panel {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  text-align: center;
+  
+  height: 100%;
+  width: 100%;
+  
+}
+
+
+.social-container {
+  margin: 20px 0;
+}
+
+.social-container a {
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+}
+
+.Google-login button {
+  width:18rem;
+  height: 3rem;
+  border-radius: 15px;
+
+}
+
+
+@media (max-width:800px){
+  .h1{
+    font-size: 2.5rem;
+  }
+  .p{
+    font-size: 20px;
+  }
+  /* .input{
+    width: 14rem;
+  } */
+  .submit{
+    width: 14rem;
+  }
+  .overlay-panel{
+    padding: 0px;
+  }
+}
+
+
+@media (max-width:750px){
+ /* .body{
+   flex-direction:column ;
+ } */
+ .overlay2{
+   display: none;
+ }
+ .mobile_view_signUp{
+   display: flex;
+ }
+}

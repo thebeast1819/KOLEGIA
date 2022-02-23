@@ -1,0 +1,27 @@
+.feature3 {
+    display: flex;
+    flex-direction: column;    
+}
+
+.feature-heading3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+.feature-heading3 h1 {
+    font-size: 62px;
+    line-height: 75px;
+    font-family: var(--font-family);
+    font-weight: 800;
+}
+
+
+
+.feature-container_cards3 {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

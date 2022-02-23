@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+.feed {
+    display: flex;
+    flex-direction: column;
+    /* border-style: solid; */
+    border-width: 3px 3px 3px 10px;
+    /* border-color: #5839a0; */
+    box-shadow: 10px 8px 10px #D9D7F1, -10px -5px 10px #D9D7F1;
+  /* margin: 5rem; */
+  /* box-shadow: 5px 5px 10px #c3c3c3, -5px -5px 10px #fdfdfd; */
+  /* background-color: #e7e7f7; */
+    background-color: #fbfbfd;
+    border-radius: 0px 5px 5px 0px;
+    padding: 4px 10px;
+    margin: 7px 15px;
+    max-width: 500px;
+}
+
+.feed_title {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    color:purple;
+    font-size: 28px;
+    line-height: 50px;
+}
+
+.feed_title svg{
+    width: 50px;
+    font-weight: 200;
+}
+
+.feed_desc {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top:15px;
+    line-height: 20px;
+}
+
+.feed_username {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.feed_date {
+    text-align: end;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 750px){
+
+    .feed_title {
+        font-size: 24px;
+    }
+    .feed_desc {
+        font-size: 16px;
+    }
+    .feed_username {
+        font-size: 13px;
+    }
+    .feed_date {
+        font-size: 11px;
+    }
+}
+
+.svg{
+    color:#F25767 ;
+    width:20px ;
+}

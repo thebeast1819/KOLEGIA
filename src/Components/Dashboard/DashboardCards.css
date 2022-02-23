@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.cont-dashboard{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin: 1rem;
+    margin-top:7rem;
+    gap: 2rem;
+}
+
+.Dcards-cont{
+    display: flex;
+    justify-content: center;
+    /* margin: 3rem; */
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+
+.Dcard{
+    max-width: 25vw;
+    width:100%;
+    min-width: 15rem;
+    height: 18rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 13px;
+    background-color:white;
+    box-shadow:  5px 5px 8px #D9D7F1,
+                 -5px -5px 8px #fdfdfd;
+}
+.DcardStats{
+    max-width: 25vw;
+    width:100%;
+    min-width: 15rem;
+    height: 18rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: left;
+    background-color:white;
+    box-sizing: border-box;
+    border-radius: 13px;
+    box-shadow:  5px 5px 8px #D9D7F1,
+                 -5px -5px 8px #fdfdfd;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../../assests/stats.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Dcard img{
+    width:11rem;
+    height: 8rem;
+    margin: 2rem;
+}
+
+.profile-img img{
+    width:10rem;
+    height:10rem;
+    border-radius: 50%;
+}
+.Dcard button{
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    /* background-color: #332A7C; */
+}
+.profile-card {
+    overflow: hidden;
+    transition: transform 0.3s ease-out;
+  }
+  
+.main-content {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* border: 2px solid red; */
+  }
+  
+
+#Lost-Found button{
+    background-color:#87DFF0 ;
+}
+#Requirements button{
+background-color:#F0BC5E;
+border: none;
+}
+
+#Buy-Sell button{
+    background-color:#F25767 ;
+}
+#Stats button{
+    background-color:#4FBDBA;
+    border: none;
+} 
+#My-Responses button{
+    background-color:#8946A6;
+    border: none;
+}
+@media (max-width: 845px) {
+    .profile-card {
+      display: none;
+    }
+  }
+  
